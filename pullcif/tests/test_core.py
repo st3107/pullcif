@@ -4,7 +4,7 @@ import pullcif.core as core
 from diffpy.structure import loadStructure, Structure
 
 
-@pytest.skip
+@pytest.mark.skip
 def test_main(tmp_path):
     core.main(str(tmp_path))
     # there are files output
