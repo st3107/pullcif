@@ -1,6 +1,7 @@
 name: test
 channels:
   - defaults
+  - diffpy
   - conda-forge
 dependencies:
   - codecov
@@ -11,3 +12,4 @@ dependencies:
   - twine
   - fire
   - requests
+  - diffpy.structure
