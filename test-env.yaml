@@ -13,3 +13,6 @@ dependencies:
   - fire
   - requests
   - diffpy.structure
+  - pip
+  - pip:
+    - pymatgen
