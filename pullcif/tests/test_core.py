@@ -1,6 +1,6 @@
 import pytest
+
 import pullcif.core as core
-from diffpy.structure import loadStructure, Structure
 
 
 @pytest.skip
