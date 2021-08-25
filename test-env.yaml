@@ -10,3 +10,4 @@ dependencies:
   - sphinx
   - twine
   - fire
+  - requests
