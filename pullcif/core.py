@@ -1,9 +1,10 @@
 import typing
+from pathlib import Path
 
 import fire
 
 
-def main(output_dir: str, query: str = None, config: typing.Dict[str, typing.Any] = None) -> None:
+def main(output_dir: str, query: dict = None, config: typing.Dict[str, typing.Any] = None) -> None:
     """Download the CIF files from the Materials Project Database.
 
     Parameters
@@ -23,6 +24,9 @@ def main(output_dir: str, query: str = None, config: typing.Dict[str, typing.Any
         config = {}
     if query is None:
         query = ""
+    _output_dir = Path(output_dir)
+    if not _output_dir.is_dir():
+        _output_dir.mkdir(parents=True)
     pass
 
 
