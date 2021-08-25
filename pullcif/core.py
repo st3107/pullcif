@@ -23,7 +23,7 @@ def main(output_dir: str, query: dict = None, config: typing.Dict[str, typing.An
     if config is None:
         config = {}
     if query is None:
-        query = ""
+        query = {}
     _output_dir = Path(output_dir)
     if not _output_dir.is_dir():
         _output_dir.mkdir(parents=True)
