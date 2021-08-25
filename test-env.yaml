@@ -1,0 +1,12 @@
+name: test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - codecov
+  - coverage
+  - flake8
+  - pytest
+  - sphinx
+  - twine
+  - diffpy.structure
