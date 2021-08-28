@@ -1,7 +1,6 @@
 name: test
 channels:
   - defaults
-  - diffpy
   - conda-forge
 dependencies:
   - codecov
@@ -13,5 +12,7 @@ dependencies:
   - fire
   - requests
   - pip
-  - pip:
-    - pymatgen
+  - numpy
+  - matplotlib
+  - scipy
+
