@@ -131,6 +131,8 @@ def download_cif(output_dir: str, query: dict = None, config: typing.Dict[str, t
     # Initialise inputs.
     if config is None:
         config = {}
+    if output_dir is None:
+        output_dir = 'pullcif/data'
 
     # If query is empty, then search all material ids.
     if query is None:
@@ -163,5 +165,3 @@ def cli():
     """The cli interface."""
     fire.Fire(download_cif)
     pass
-
-download_cif()
