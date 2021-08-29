@@ -1,1 +1,16 @@
-# List required packages in this file, one per line.
+#>List required packages in this file, one per line.
+#>packages in>=environment at \envs\pullcif:
+python >= 3.9.6
+codecov >=  2.1.11 
+coverage >= 5.5 
+flask >= 2.0.1
+pymatgen >= 2022.0.12 
+pytest >= 6.2.4
+sphinx >= 4.0.2 
+twine >= 3.4.1 
+fire >= 0.4.0 
+requests >= 2.25.1
+pip >= 21.2.4 
+numpy >= 1.21.2 
+matplotlib >= 3.4.2 
+scipy >= 1.6.2 
