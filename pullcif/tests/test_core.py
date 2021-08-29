@@ -1,11 +1,6 @@
 import pytest
 
 import pullcif.core as core
+def test_download_cif(tmp_path):
 
-
-@pytest.mark.skip
-def test_main(tmp_path):
-    core.main(str(tmp_path))
-    # there are files output
-    fs = list(tmp_path.glob("*"))
-    assert len(fs) > 0
+    pass
